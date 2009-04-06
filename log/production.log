@@ -1,0 +1,1346 @@
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 10:03:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 95ms (View: 50, DB: 43) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:03:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#login (for 85.70.175.136 at 2009-04-06 10:03:40) [POST]
+  Parameters: {"authenticity_token"=>"2A5oZaeIqaAnUkr7OQcLTEh68uKhk3Lqff8diIe7qlA=", "user"=>{"password"=>"admin", "login"=>"admin"}}
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://o2h.cz/users/login]
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 10:03:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:03:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#edit (for 85.70.175.136 at 2009-04-06 10:03:42) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 346ms (View: 340, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:03:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#update (for 85.70.175.136 at 2009-04-06 10:03:50) [POST]
+  Parameters: {"commit"=>"uložit", "days"=>{"selected"=>["", "2009-07-10", "2009-07-11", "2009-07-12", "2009-07-17", "2009-07-18", "2009-07-19", "2009-07-24", "2009-07-25", "2009-07-26", "2009-07-31", "2009-08-01", "2009-08-02", "2009-08-07", "2009-08-08", "2009-08-09", "2009-08-14", "2009-08-15", "2009-08-16"]}, "authenticity_token"=>"2A5oZaeIqaAnUkr7OQcLTEh68uKhk3Lqff8diIe7qlA="}
+Redirected to http://o2h.cz:3000/days/edit
+Completed in 265ms (DB: 98) | 302 Found [http://o2h.cz/days/update]
+
+
+Processing DaysController#edit (for 85.70.175.136 at 2009-04-06 10:03:50) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 280ms (View: 276, DB: 0) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:03:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#edit (for 85.70.175.136 at 2009-04-06 10:04:16) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 474ms (View: 443, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:04:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 10:04:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:04:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#logout (for 85.70.175.136 at 2009-04-06 10:04:21) [GET]
+Redirected to http://o2h.cz:3000/
+Completed in 11ms (DB: 7) | 302 Found [http://o2h.cz/users/logout]
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 10:04:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 219ms (View: 9, DB: 210) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:04:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 85.70.175.136 at 2009-04-06 10:05:25) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 9, DB: 4) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:05:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 10:05:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:05:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.24.12.122 at 2009-04-06 10:06:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 148ms (View: 88, DB: 60) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.24.12.122 at 2009-04-06 10:06:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 69.63.178.248 at 2009-04-06 10:07:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 47ms (View: 6, DB: 41) | 200 OK [http://o2h.cz/]
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 10:08:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 97ms (View: 30, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:08:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 85.70.175.136 at 2009-04-06 10:09:25) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:09:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 10:09:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 12ms (View: 5, DB: 6) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 10:09:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 69.63.178.248 at 2009-04-06 13:04:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 656ms (View: 522, DB: 134) | 200 OK [http://o2h.cz/]
+
+
+Processing WelcomeController#index (for 193.179.100.237 at 2009-04-06 13:06:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 55ms (View: 6, DB: 49) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 193.179.100.237 at 2009-04-06 13:06:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 193.179.100.237 at 2009-04-06 13:06:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 5) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 193.179.100.237 at 2009-04-06 13:06:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 193.179.100.237 at 2009-04-06 13:06:26) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 193.179.100.237 at 2009-04-06 13:06:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.207.108.217 at 2009-04-06 13:27:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 6, DB: 15) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.207.108.217 at 2009-04-06 13:27:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 89.176.239.5 at 2009-04-06 13:34:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 53ms (View: 7, DB: 46) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 89.176.239.5 at 2009-04-06 13:34:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 88.103.62.121 at 2009-04-06 14:24:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 26ms (View: 6, DB: 21) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 88.103.62.121 at 2009-04-06 14:24:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 14:54:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 49ms (View: 6, DB: 43) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 14:55:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 78.102.214.243 at 2009-04-06 14:55:34) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 14:55:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#create (for 78.102.214.243 at 2009-04-06 14:56:17) [POST]
+  Parameters: {"commit"=>"zaregistrovat", "authenticity_token"=>"RgUAsERK8w2Z0jZM2ToA9y0djSMBMhDZ7nPq/BmUZlk=", "user"=>{"password_confirmation"=>"tricky", "password"=>"tricky", "login"=>"marwood", "email"=>"og.marwood@gmail.com"}}
+Rendering template within layouts/application
+Rendering users/create
+Completed in 62ms (View: 4, DB: 24) | 200 OK [http://o2h.cz/users/create]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 14:56:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#edit (for 78.102.214.243 at 2009-04-06 14:56:22) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 516ms (View: 510, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 14:56:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#update (for 78.102.214.243 at 2009-04-06 14:57:41) [POST]
+  Parameters: {"commit"=>"uložit", "days"=>{"selected"=>["", "2009-07-01", "2009-07-02", "2009-07-03", "2009-07-04", "2009-07-05", "2009-07-06", "2009-07-07", "2009-07-08", "2009-07-09", "2009-07-10", "2009-07-11", "2009-07-12"]}, "authenticity_token"=>"RgUAsERK8w2Z0jZM2ToA9y0djSMBMhDZ7nPq/BmUZlk="}
+Redirected to http://o2h.cz:3000/days/edit
+Completed in 260ms (DB: 173) | 302 Found [http://o2h.cz/days/update]
+
+
+Processing DaysController#edit (for 78.102.214.243 at 2009-04-06 14:57:43) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 273ms (View: 268, DB: 2) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 14:57:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 14:57:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 14:57:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 14:58:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 14:58:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.24.12.122 at 2009-04-06 15:30:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.24.12.122 at 2009-04-06 15:30:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 78.24.12.122 at 2009-04-06 15:30:50) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 78.24.12.122 at 2009-04-06 15:30:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.24.12.122 at 2009-04-06 15:30:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.24.12.122 at 2009-04-06 15:30:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 78.24.12.122 at 2009-04-06 15:30:58) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 78.24.12.122 at 2009-04-06 15:30:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.45.51.118 at 2009-04-06 21:58:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 46ms (View: 6, DB: 40) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.45.51.118 at 2009-04-06 21:58:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 78.45.51.118 at 2009-04-06 21:59:05) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 78.45.51.118 at 2009-04-06 21:59:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#create (for 78.45.51.118 at 2009-04-06 22:01:50) [POST]
+  Parameters: {"commit"=>"zaregistrovat", "authenticity_token"=>"715xTeZgma/z9QWZ/PZeUwBX527elBIf/Ij79yN3hS4=", "user"=>{"password_confirmation"=>"pacient23", "password"=>"pacient23", "login"=>"tvrdej_bobek", "email"=>"jezdinsky@yahoo.com"}}
+Rendering template within layouts/application
+Rendering users/create
+Completed in 41ms (View: 3, DB: 32) | 200 OK [http://o2h.cz/users/create]
+
+
+Processing ApplicationController#index (for 78.45.51.118 at 2009-04-06 22:01:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.45.51.118 at 2009-04-06 22:02:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.45.51.118 at 2009-04-06 22:02:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#edit (for 78.45.51.118 at 2009-04-06 22:02:02) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 190ms (View: 187, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 78.45.51.118 at 2009-04-06 22:02:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 22:51:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1505ms (View: 737, DB: 446) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:51:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#login (for 85.70.175.136 at 2009-04-06 22:51:37) [POST]
+  Parameters: {"authenticity_token"=>"/JOD27RLUrPa+8gP/hTT+kIm/R22LDukCGs35ygADgU=", "user"=>{"password"=>"admin", "login"=>"admin"}}
+Completed in 25ms (View: 0, DB: 18) | 200 OK [http://o2h.cz/users/login]
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 22:51:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 190ms (View: 182, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:51:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#edit (for 85.70.175.136 at 2009-04-06 22:51:41) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 286ms (View: 279, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:51:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#update (for 85.70.175.136 at 2009-04-06 22:51:47) [POST]
+  Parameters: {"commit"=>"uložit", "days"=>{"selected"=>[""]}, "authenticity_token"=>"/JOD27RLUrPa+8gP/hTT+kIm/R22LDukCGs35ygADgU="}
+Redirected to http://o2h.cz:3000/days/edit
+Completed in 81ms (DB: 64) | 302 Found [http://o2h.cz/days/update]
+
+
+Processing DaysController#edit (for 85.70.175.136 at 2009-04-06 22:51:47) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 293ms (View: 290, DB: 0) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:51:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 22:51:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 190ms (View: 185, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#logout (for 85.70.175.136 at 2009-04-06 22:51:55) [GET]
+Redirected to http://o2h.cz:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://o2h.cz/users/logout]
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 22:51:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 361ms (View: 295, DB: 62) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:51:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 85.70.175.136 at 2009-04-06 22:51:57) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:51:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#create (for 85.70.175.136 at 2009-04-06 22:52:10) [POST]
+  Parameters: {"commit"=>"zaregistrovat", "authenticity_token"=>"4JJjAxgzuLFIPgtm9OIfIxthkLfTaZwVHErRxI7sSNA=", "user"=>{"password_confirmation"=>"unreal", "password"=>"unreal", "login"=>"mikz", "email"=>"mikz@mailinaor.com"}}
+Rendering template within layouts/application
+Rendering users/create
+Completed in 24ms (View: 3, DB: 16) | 200 OK [http://o2h.cz/users/create]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:52:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#edit (for 85.70.175.136 at 2009-04-06 22:52:11) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 268ms (View: 266, DB: 0) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:52:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#update (for 85.70.175.136 at 2009-04-06 22:52:23) [POST]
+  Parameters: {"commit"=>"uložit", "days"=>{"selected"=>["", "2009-06-29", "2009-06-30", "2009-07-01", "2009-07-02", "2009-07-03", "2009-07-04", "2009-07-05", "2009-07-06", "2009-07-07", "2009-07-08", "2009-07-09", "2009-07-10", "2009-07-11", "2009-07-12", "2009-07-13", "2009-07-14", "2009-07-15", "2009-07-16", "2009-07-17", "2009-07-18", "2009-07-19", "2009-07-20", "2009-07-21", "2009-07-22", "2009-07-23", "2009-07-24", "2009-07-25", "2009-07-26", "2009-07-27", "2009-07-28", "2009-07-29", "2009-07-30", "2009-07-31", "2009-08-01", "2009-08-02", "2009-08-03", "2009-08-04", "2009-08-05", "2009-08-06", "2009-08-07", "2009-08-08", "2009-08-09", "2009-08-10", "2009-08-11", "2009-08-12", "2009-08-13", "2009-08-14", "2009-08-15", "2009-08-16", "2009-08-17", "2009-08-18", "2009-08-19", "2009-08-20", "2009-08-21", "2009-08-22", "2009-08-23", "2009-08-24", "2009-08-25", "2009-08-26", "2009-08-27", "2009-08-28", "2009-08-29", "2009-08-30", "2009-08-31", "2009-09-01", "2009-09-02", "2009-09-03", "2009-09-04", "2009-09-05", "2009-09-06", "2009-09-07", "2009-09-08", "2009-09-09", "2009-09-10", "2009-09-11", "2009-09-12", "2009-09-13"]}, "authenticity_token"=>"4JJjAxgzuLFIPgtm9OIfIxthkLfTaZwVHErRxI7sSNA="}
+Redirected to http://o2h.cz:3000/days/edit
+Completed in 676ms (DB: 158) | 302 Found [http://o2h.cz/days/update]
+
+
+Processing DaysController#edit (for 85.70.175.136 at 2009-04-06 22:52:23) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 289ms (View: 199, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:52:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 22:52:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 315ms (View: 297, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:52:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 22:59:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 385ms (View: 341, DB: 5) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 22:59:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 23:03:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 290ms (View: 237, DB: 34) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 23:03:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 23:03:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 304ms (View: 286, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 23:03:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#login (for 78.102.214.243 at 2009-04-06 23:03:36) [POST]
+  Parameters: {"authenticity_token"=>"VcPpbenDJd06Kvu1le/bCoLQp7lz2G54Vs4fOUBsjU8=", "user"=>{"password"=>"tricky", "login"=>"marwood"}}
+Completed in 8ms (View: 1, DB: 1) | 200 OK [http://o2h.cz/users/login]
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 23:03:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 319ms (View: 301, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 23:03:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:03:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 210ms (View: 189, DB: 4) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:03:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 23:03:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 432ms (View: 297, DB: 119) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 23:04:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#login (for 78.102.214.243 at 2009-04-06 23:04:09) [POST]
+  Parameters: {"authenticity_token"=>"xOAL/zKmNWTReq1THfLzzS7WIhx9yuvF4c4SfI6kNRM=", "user"=>{"password"=>"tricky", "login"=>"marwood"}}
+Completed in 3ms (View: 0, DB: 1) | 200 OK [http://o2h.cz/users/login]
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 23:04:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 355ms (View: 293, DB: 45) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 23:04:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#edit (for 78.102.214.243 at 2009-04-06 23:04:14) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 191ms (View: 185, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 23:04:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.102.214.243 at 2009-04-06 23:04:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 220ms (View: 196, DB: 6) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.102.214.243 at 2009-04-06 23:04:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:08:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 316ms (View: 294, DB: 6) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:08:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing DaysController#edit (for 85.70.175.136 at 2009-04-06 23:08:52) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 305ms (View: 294, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:08:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:09:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 224ms (View: 204, DB: 2) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:09:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.2.60 at 2009-04-06 23:10:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 333ms (View: 291, DB: 25) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.2.60 at 2009-04-06 23:10:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:21:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1992ms (View: 314, DB: 1661) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:21:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:21:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 216ms (View: 197, DB: 2) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:21:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 77.240.98.228 at 2009-04-06 23:23:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3940ms (View: 194, DB: 3643) | 200 OK [http://o2h.cz/]
+
+
+Processing DaysController#edit (for 78.45.51.118 at 2009-04-06 23:23:17) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 299ms (View: 294, DB: 2) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 78.45.51.118 at 2009-04-06 23:23:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:23:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 78.45.51.118 at 2009-04-06 23:23:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 319ms (View: 301, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 78.45.51.118 at 2009-04-06 23:23:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/datepicker/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 77.240.98.228 at 2009-04-06 23:23:56) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:23:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:23:56) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+
+
+Processing UsersController#create (for 77.240.98.228 at 2009-04-06 23:24:09) [POST]
+  Parameters: {"commit"=>"zaregistrovat", "authenticity_token"=>"JuDHYzgCpZa4rTcBH201cJ7yoJKwCGl2aVoIPr8d+tE=", "user"=>{"password_confirmation"=>"55555", "password"=>"55555", "login"=>"Fickus", "email"=>"kubas.fiala@seznam.cz"}}
+Rendering template within layouts/application
+Rendering users/create
+Completed in 26ms (View: 3, DB: 17) | 200 OK [http://o2h.cz/users/create]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:24:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+
+
+Processing WelcomeController#index (for 77.240.98.228 at 2009-04-06 23:24:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 218ms (View: 200, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:24:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+
+
+Processing DaysController#edit (for 77.240.98.228 at 2009-04-06 23:24:14) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 279ms (View: 276, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:24:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+
+
+Processing WelcomeController#index (for 77.240.98.228 at 2009-04-06 23:24:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 310ms (View: 288, DB: 1) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:24:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+
+
+Processing DaysController#edit (for 77.240.98.228 at 2009-04-06 23:24:17) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 193ms (View: 190, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:24:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:24:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 406ms (View: 352, DB: 2) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:24:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/voda.o2h.cz/public/404.html (404 Not Found)
+
+
+Processing DaysController#update (for 77.240.98.228 at 2009-04-06 23:24:43) [POST]
+  Parameters: {"commit"=>"uložit", "days"=>{"selected"=>["", "2009-06-29", "2009-06-30", "2009-07-01", "2009-07-02", "2009-07-03", "2009-07-04", "2009-07-05", "2009-07-06", "2009-07-07", "2009-07-08", "2009-07-09", "2009-07-10", "2009-07-11", "2009-07-12", "2009-07-13", "2009-07-14", "2009-07-15", "2009-07-16", "2009-07-17", "2009-07-18", "2009-07-19", "2009-07-20", "2009-07-21", "2009-07-22", "2009-07-23", "2009-07-24", "2009-07-25", "2009-07-26", "2009-07-27", "2009-07-28", "2009-07-29", "2009-07-30", "2009-07-31", "2009-08-01", "2009-08-02", "2009-08-03", "2009-08-04", "2009-08-05", "2009-08-06", "2009-08-07", "2009-08-08", "2009-08-09", "2009-08-10", "2009-08-11", "2009-08-12", "2009-08-13", "2009-08-14", "2009-08-15", "2009-08-16", "2009-08-17", "2009-08-18", "2009-08-19", "2009-08-20", "2009-08-21", "2009-08-22", "2009-08-23", "2009-08-24", "2009-08-25", "2009-08-26", "2009-08-27", "2009-08-28", "2009-08-29", "2009-08-30", "2009-08-31", "2009-09-01", "2009-09-02", "2009-09-03", "2009-09-04", "2009-09-05", "2009-09-06", "2009-09-07", "2009-09-08", "2009-09-09", "2009-09-10", "2009-09-11", "2009-09-12", "2009-09-13"]}, "authenticity_token"=>"JuDHYzgCpZa4rTcBH201cJ7yoJKwCGl2aVoIPr8d+tE="}
+Redirected to http://o2h.cz:3000/days/edit
+Completed in 823ms (DB: 351) | 302 Found [http://o2h.cz/days/update]
+
+
+Processing DaysController#edit (for 77.240.98.228 at 2009-04-06 23:24:44) [GET]
+Rendering template within layouts/application
+Rendering days/edit
+Completed in 289ms (View: 277, DB: 1) | 200 OK [http://o2h.cz/days/edit]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:24:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/voda.o2h.cz/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 77.240.98.228 at 2009-04-06 23:24:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 219ms (View: 188, DB: 2) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:24:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/voda.o2h.cz/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:25:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 251ms (View: 197, DB: 22) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing WelcomeController#index (for 77.240.98.228 at 2009-04-06 23:25:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1019ms (View: 301, DB: 689) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:25:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 344ms (View: 304, DB: 11) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:25:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 228ms (View: 194, DB: 2) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing WelcomeController#index (for 69.63.178.247 at 2009-04-06 23:29:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4099ms (View: 293, DB: 3777) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing UsersController#new (for 85.70.175.136 at 2009-04-06 23:29:57) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://voda.o2h.cz/users/new]
+
+
+Processing WelcomeController#index (for 77.240.98.228 at 2009-04-06 23:30:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 349ms (View: 318, DB: 2) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 77.240.98.228 at 2009-04-06 23:30:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/voda.o2h.cz/public/404.html (404 Not Found)
+
+
+Processing UsersController#new (for 85.70.175.136 at 2009-04-06 23:30:47) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://o2h.cz/users/new]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:30:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/voda.o2h.cz/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:30:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 324ms (View: 288, DB: 2) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-06 23:30:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/voda.o2h.cz/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:30:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 236ms (View: 200, DB: 2) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-06 23:33:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 342ms (View: 291, DB: 21) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing WelcomeController#index (for 88.102.171.252 at 2009-04-06 23:46:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 326ms (View: 288, DB: 9) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing UsersController#new (for 88.102.171.252 at 2009-04-06 23:48:21) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://voda.o2h.cz/users/new]
+
+
+Processing WelcomeController#index (for 94.113.92.166 at 2009-04-07 00:01:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 237ms (View: 187, DB: 20) | 200 OK [http://o2h.cz/]
+
+
+Processing ApplicationController#index (for 94.113.92.166 at 2009-04-07 00:01:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  
+
+Rendering /var/www/voda.o2h.cz/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-07 00:32:46) [GET]
+
+NoMethodError (undefined method `count' for #<Array:0x25bf4d0>):
+  app/controllers/welcome_controller.rb:12:in `index'
+  app/controllers/welcome_controller.rb:11:in `each_pair'
+  app/controllers/welcome_controller.rb:11:in `index'
+  passenger (2.1.3) lib/phusion_passenger/rack/request_handler.rb:65:in `process_request'
+  passenger (2.1.3) lib/phusion_passenger/abstract_request_handler.rb:197:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/utils.rb:176:in `safe_fork'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:149:in `start'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:260:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:121:in `lookup_or_add'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:75:in `synchronize'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:74:in `synchronize'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:148:in `spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:285:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+
+Rendering /var/www/voda.o2h.cz/public/500.html (500 Internal Server Error)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-07 00:38:15) [GET]
+
+NoMethodError (undefined method `count' for #<Array:0x25c6bb8>):
+  app/controllers/welcome_controller.rb:12:in `index'
+  app/controllers/welcome_controller.rb:11:in `each_pair'
+  app/controllers/welcome_controller.rb:11:in `index'
+  passenger (2.1.3) lib/phusion_passenger/rack/request_handler.rb:65:in `process_request'
+  passenger (2.1.3) lib/phusion_passenger/abstract_request_handler.rb:197:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/utils.rb:176:in `safe_fork'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:149:in `start'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:260:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:121:in `lookup_or_add'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:75:in `synchronize'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:74:in `synchronize'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:148:in `spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:285:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+
+Rendering /var/www/voda.o2h.cz/public/500.html (500 Internal Server Error)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-07 00:39:13) [GET]
+
+NoMethodError (undefined method `count' for #<Array:0x25bf4d0>):
+  app/controllers/welcome_controller.rb:12:in `index'
+  app/controllers/welcome_controller.rb:11:in `each_pair'
+  app/controllers/welcome_controller.rb:11:in `index'
+  passenger (2.1.3) lib/phusion_passenger/rack/request_handler.rb:65:in `process_request'
+  passenger (2.1.3) lib/phusion_passenger/abstract_request_handler.rb:197:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/utils.rb:176:in `safe_fork'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:149:in `start'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:260:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:121:in `lookup_or_add'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:75:in `synchronize'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:74:in `synchronize'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:148:in `spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:285:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+
+Rendering /var/www/voda.o2h.cz/public/500.html (500 Internal Server Error)
+
+
+Processing WelcomeController#index (for 85.70.175.136 at 2009-04-07 00:39:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 316ms (View: 265, DB: 3) | 200 OK [http://voda.o2h.cz/]
+
+
+Processing ApplicationController#index (for 85.70.175.136 at 2009-04-07 00:39:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+  passenger (2.1.3) lib/phusion_passenger/rack/request_handler.rb:65:in `process_request'
+  passenger (2.1.3) lib/phusion_passenger/abstract_request_handler.rb:197:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/utils.rb:176:in `safe_fork'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:149:in `start'
+  passenger (2.1.3) lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:260:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:121:in `lookup_or_add'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:75:in `synchronize'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server_collection.rb:74:in `synchronize'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:148:in `spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/spawn_manager.rb:285:in `handle_spawn_application'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+  passenger (2.1.3) lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+
+Rendering /var/www/voda.o2h.cz/public/404.html (404 Not Found)
