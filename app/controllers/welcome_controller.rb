@@ -9,7 +9,7 @@ class WelcomeController < ApplicationController
     }
     @max = 0
     @dates.each_pair do |date,days|
-      @max = days.count if days.count > @max
+      @max = days.size if days.size > @max
     end
   end
 
