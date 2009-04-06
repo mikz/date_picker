@@ -1,0 +1,35 @@
+<%- @begin.upto @end do |date|-%>
+<%-if (date.cwday == 1) || (@begin == date)-%><div class="week <%=date.cweek%>"><div class="headline"><h3><%=date.cweek%>. týden</h3><h4><%= l(date, :format => :long).mb_chars.downcase%> až <%= l(date+6 ,:format => :long).mb_chars.downcase%></h4></div><%-end-%>
+  <div class="day <%=int_to_text(date.cwday)%> <%='ui-selected' if @dates.has_key? date%>" <%= %{style="opacity: #{(@dates[date].count.to_f/@max.to_f).round(2)};"} if @dates.has_key?(date) %> id="<%=date.to_s%>"><%= l date, :format => :with_day%><br/>(&nbsp;<%=(@dates[date]||[]).count%>&nbsp;)<div style="display: none;"><%=@dates[date].collect { |day| day.user.login }.to_json if @dates.has_key?(date)%></div></div>
+<%-if date.cwday == 7-%><div class="holder"></div></div><%-end-%>
+<%-end-%>
+<script type="text/javascript">
+$(function(){
+  var tooltip = $("#tooltip");
+  $(".day.ui-selected").each(function(){
+    var users = eval($("div",this).html());
+    $(this).hover(function(event) {
+      $(this).mousemove(function(event) {
+        tooltip.css({left: event.pageX + 10, top: event.pageY + 10});
+      });
+      tooltip.css({left: event.pageX + 10, top: event.pageY + 10});
+      tooltip.html(users.join(", "));
+      tooltip.show();
+    }, function(){
+      tooltip.unbind("mousemove");
+      tooltip.hide();
+    });
+  });
+});
+</script>
+<style type="text/css">
+#tooltip {
+  border: 1px solid black;
+  padding: 1em;
+  position: absolute;
+  display: none;
+  z-index: 100;
+  background: white;
+}
+</style>
+<div id="tooltip"></div>
