@@ -9,6 +9,8 @@ class User < ActiveRecord::Base
   validates_presence_of :password_confirmation, :if => :password_hash_changed?
   validates_confirmation_of :password, :on => :create
   validates_length_of :password, :within => 5..32, :on => :create
+  validates_length_of :email, :within => 5..100
+  validates_length_of :login, :within => 4..20
   
   has_many :days, :autosave => true
   # Login using name and password
