@@ -3,3 +3,7 @@
 
 en:
   hello: "Hello world"
+  numbers:
+    one: one
+    two: two
+    three: three

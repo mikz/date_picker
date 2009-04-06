@@ -45,12 +45,12 @@ class UsersController < ApplicationController
     respond_to do |format|
       format.html do
         flash[:notice] = t :logged_out
-        redirect_to :back
+        redirect_to "/"
       end
       format.js do
         render :update do |page|
           flash.now[:notice] = t :logged_out
-          page << 'window.location.reload();'
+          page << 'window.location = "/";'
         end
       end
       format.xml do
@@ -62,7 +62,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.valid? and @user.save
-      current_user = @user
+      self.current_user = @user
       render
     else
       render "new"

@@ -1,0 +1,5 @@
+<ul>
+  <li<%= ' id="selected"' if params[:controller] == "welcome"%>><%=link_to 'úvod', :controller => "welcome"%></li>
+<%unless logged_in?%>   <li<%= ' id="selected"' if params[:controller] == "users"%>><%=link_to 'registrace', :controller => "users", :action => "new"%></li><%end%>
+<%if logged_in?%>  <li<%= ' id="selected"' if params[:controller] == "days"%>><%=link_to 'dny', :controller => "days", :action => "edit"%></li><%end%>
+</ul>

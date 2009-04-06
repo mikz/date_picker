@@ -5,6 +5,12 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<%= javascript_include_tag :defaults %>
+	<link type="text/css" rel="stylesheet" href="/stylesheets/reset-min.css" />
+	<link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen, print" charset="utf-8"/>
+	<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print" charset="utf-8"/>
+	<link type="text/css" rel="stylesheet" href="/stylesheets/days.css"  media="screen" charset="utf-8"/>
+	<script type="text/javascript" src="/javascripts/ui.selectable.js"></script>
 	<title>rProxy :: <%= t(controller.controller_class_name.underscore, :scope => [:actioncontroller]).downcase %> : <%=t(controller.action_name, :scope => [controller.controller_class_name.underscore, :action ]).downcase%></title>
 </head>
 <body>

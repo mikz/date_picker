@@ -9,6 +9,8 @@ class User < ActiveRecord::Base
   validates_presence_of :password_confirmation, :if => :password_hash_changed?
   validates_confirmation_of :password, :on => :create
   validates_length_of :password, :within => 5..32, :on => :create
+  
+  has_many :days, :autosave => true
   # Login using name and password
   def self.authenticate(login, password)
     user = find_by_login(login) # need to get salt
