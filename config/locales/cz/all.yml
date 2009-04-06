@@ -1,0 +1,17 @@
+cz:
+  register: zaregistrovat
+  logout: odhlásit
+  login: přihlásit
+  logged_in: přihlášen
+  logged_out: odhášen
+  bad_login: "špatné jméno nebo heslo"
+  login_ok: "přihlášení proběhlo úspěšně"
+  plugin_activated: "Plugin '{{name}}' aktivován."
+  plugin_deactivated: "Plugin '{{name}}' deaktivován."
+  activate: aktivovat
+  deactivate: deaktivovat
+  configure: nastavit
+  configuration: nastavení
+  no_configuration: Není možné nic nastavit
+  submit: odeslat
+  save: uložit

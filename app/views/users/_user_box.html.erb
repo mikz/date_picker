@@ -1,0 +1,12 @@
+<%- if current_user.guest? -%>
+  <%- remote_form_for :user, :url => {:controller => :users, :action => :login } do |f|%>
+    <fieldset>
+      <p><label for="userbox_login"><%= t "activerecord.attributes.user.login"%></label><input type="text" id="userbox_login" name="user[login]"/></p>
+      <p><label for="userbox_password"><%= t "activerecord.attributes.user.password"%></label><input type="password" id="userbox_password" name="user[password]"/></p>
+      <p><%=link_to t(:register), url_for(:controller => :users,:action=>:new)%><input type="submit" value="<%=h t :login%>"/></p>
+    </fieldset>
+  <%-end-%>
+<%-else-%>
+<p><%= current_user.class.human_attribute_name("login").capitalize%>: <%=current_user.login%></p>
+<p><%= link_to t(:logout), url_for(:controller=>:users,:action=>:logout)%></p>
+<%end%>

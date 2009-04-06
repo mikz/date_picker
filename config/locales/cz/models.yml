@@ -1,0 +1,22 @@
+cz:
+  activerecord:
+    
+    models:
+      
+      user: 'uživatel'
+      
+    attributes:
+      
+      user:
+        login: 'uživatelské jméno'
+        password: 'heslo'
+        password_confirmation: 'heslo (znovu)'
+        email: 'email'
+      
+      plugin:
+        name: jméno
+        path: cesta
+        version: verze
+        present: existuje?
+        activated: aktivovaný?
+      

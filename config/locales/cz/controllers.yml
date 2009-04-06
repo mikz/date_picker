@@ -1,0 +1,15 @@
+cz:
+  actioncontroller:
+    welcome_controller: Úvod
+    users_controller: Uživatelé
+    days_controller: Dny
+  welcome_controller: 
+      action:
+        index: 'výpis'
+  users_controller:
+      action:
+        new: 'nový uživatel'
+        create: 'vytvoření nového uživatele'
+  days_controller:
+      action:
+        edit: 'moje dny'
