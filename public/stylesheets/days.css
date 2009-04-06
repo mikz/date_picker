@@ -1,0 +1,56 @@
+.day {
+  float: left;
+  padding: 1em 0;
+  margin: auto;
+  width: 8em;
+  text-align: center;
+  -moz-border-radius: 0.9em;
+  -webkit-border-radius: 0.9em;
+}
+.day.five {
+  background-color: #DBDBDB;
+}
+.day.six, .day.seven {
+  background-color: #C9C9C9;
+}
+.day:hover {
+  background: #FC782C;
+}
+.day.ui-selecting {
+  background-color: #FC8844;
+}
+.day.ui-unselecting {
+  background-color: #FECCAC;
+}
+.day.ui-selected {
+  background-color: #F60;
+}
+.day.ui-selected:hover {
+  background: #FD995D;
+}
+.week {
+  float: left;
+  clear: both;
+  width: 56em;
+  border: 1px solid black;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+}
+.week h3, .week h4 {
+  display: inline;
+  margin-right: 2em;
+}
+.week .headline {
+  text-align: center;
+  padding: 0.25em 0;
+  color: white;
+  background: black;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+}
+p.days {
+  text-align: center;
+}
+input.days {
+  margin-top: 1em;
+}

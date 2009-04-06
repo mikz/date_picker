@@ -1,0 +1,151 @@
+body {
+  font-family: Georgia, "New York CE", utopia, serif;
+  font-size: 16px;
+}
+
+#menu ul {
+  font-family: Verdana, "Geneva CE", lucida, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+#menu ul li{
+  display: inline;  
+  line-height: 1.5em; 
+  padding: 0.125em 0.5em 0 0.5em;
+}
+#menu ul li a {
+  font-weight: bold;
+}
+#menu ul li#selected {
+  color: black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+#text {
+  padding-bottom: 1em;
+}
+#body p {
+  line-height: 1.4em;
+}
+#body p:first-letter {
+  margin-left: 1em;
+}
+a[rel="external"] {
+  background: url(../images/external.png) center right no-repeat scroll;
+  padding-right: 0.813em;
+}
+h1, h2, h3 {
+  font-family: Verdana, "Geneva CE", lucida, sans-serif;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: 180%;
+  font-weight: bold;
+}
+h2 {
+  font-size: 150%;
+}
+h3 {
+  font-size: 120%;
+}
+
+table {
+  width: 100%;
+  table-layout: auto;
+}
+table thead tr {
+  text-align: center;
+  background-color: #E6E6E6;
+}
+table thead {
+  margin-bottom: 1em;
+}
+table tr {
+  border: 0.125em solid blue;
+}
+table tr td {
+  padding: 0.25em 0 0.25em 0.5em;
+  border: 0.125em solid black;
+}
+table thead tr:last-child {
+  text-align: left;
+}
+table td {
+  
+}
+:lang(cs) { quotes: '„' '“' '‚' '‘'; }
+blockquote {
+  font-family: Verdana, "Geneva CE", lucida, sans-serif;
+}
+blockquote > *:before, blockquote > *:after {
+  font-family: Georgia, "New York CE", utopia, serif;
+  font-weight: bold;
+}
+blockquote:lang(cs) > p:before {
+  content: open-quote;
+}
+blockquote:lang(cs) > p:after {
+  content: close-quote;
+}
+#body blockquote p {
+  margin: 0;
+}
+blockquote + cite {
+  float: right;
+  margin-right: 3em;
+}
+strong {
+  font-weight: bold;
+}
+dl {
+  border-bottom: 1px solid #999;
+  margin-bottom: 1em;
+}
+
+dt
+{
+  width: 30%;
+  padding: 0.5em;
+  float: left;
+  margin: 0;
+  border-top: 1px solid #999;
+  font-weight: bold;
+}
+
+dd
+{
+  margin-left: 31%;
+  padding: .5em;
+}
+#body ul {
+  padding: 0.5em 0;
+}
+#body ul li {
+  padding-left: 2em;
+}
+#body ul li:before {
+  content: counter(li, circle) " ";
+}
+dt + dd { border-top: 1px solid #999; }
+
+#sidebar #user_box p {
+  clear: both;
+}
+#sidebar #user_box input{
+  width: 8em;
+  float: right;
+}
+
+#sidebar #user_box label{
+  margin: 0.2em 0;
+  float: left;
+}
+#sidebar #user_box label{
+  margin: 0.2em 0;
+  float: left;
+}
+#sidebar #user_box p a{
+  float: left;
+}
+

@@ -1,0 +1,21 @@
+<%- form_for :days, :url => {:action => :create}, :html => {:onsubmit => "get_selected_days(this);"} do |f|-%>
+<%- @begin.upto @end do |date|-%>
+<%-if (date.cwday == 1) || (@begin == date)-%><div class="week <%=date.cweek%>"><div class="headline"><h3><%=date.cweek%>. týden</h3><h4><%= l(date, :format => :long).mb_chars.downcase%> až <%= l(date+6 ,:format => :long).mb_chars.downcase%></h4></div><%-end-%>
+  <div class="day <%=int_to_text(date.cwday)%>" id="<%=date.to_s%>"><%= l date, :format => :with_day%></div>
+<%-if date.cwday == 7-%><div class="holder"></div></div><%-end-%>
+<%-end-%>
+<p class="days"><%= f.submit t(:submit), :class=>"days"%><input type="hidden" name="days[selected][]"/></p>
+<%-end-%>
+<script type="text/javascript">
+
+$("#text").selectable({
+  filter: ".day"
+});
+var get_selected_days = function(from) {
+  var selected = [];
+  var input = '<input type="hidden" name="days[selected][]"/>';
+  $(".ui-selected",from).each(function(){
+    $(from).append($(input).val(this.id));
+  });
+}
+</script>
