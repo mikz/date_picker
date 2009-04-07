@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def index
+    @comments = Comment.find :all, :order => "created_at DESC"
     @begin = Date.parse("2009-06-29")
     @end   = Date.parse("2009-09-13")
     @dates = {}

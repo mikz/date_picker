@@ -1,0 +1,10 @@
+<div class="comments">
+  <h3>Komentáře</h3>
+  <%- if @comments
+    @comments.each do |comment|-%>
+  <%= render :partial => "comment", :locals => {:comment => comment}%>
+  <%-end
+  else -%>
+  <%= render :partial => "no_comments"%>
+  <%-end-%>
+</div>
