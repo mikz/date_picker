@@ -1,7 +1,10 @@
-
-<%-form_for :comment, :url => {:controller => :comments, :action => :new} do |f|-%>
-<p><label for="comment_title">Titulek:</label><%= f.text_field :title%></p>
-<p><label for="comment_content">Text:</label>
+<div id="new_comment">
+<%-form_for :comment, :url => {:controller => :comments, :action => :create} do |f|-%>
+<h4><%=t(:new_comment)%></h4>
+<p><label class="title" for="comment_title">Titulek:</label><%= f.text_field :title%></p>
+<p><label class="content" for="comment_content">Text:</label>
   <%= f.text_area :content%>
 </p>
+<p><%= f.submit t(:save)%></p>
 <%-end-%>
+</div>

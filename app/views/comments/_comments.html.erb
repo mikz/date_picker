@@ -1,10 +1,13 @@
-<div class="comments">
+<div id="comments">
   <h3>Komentáře</h3>
-  <%- if @comments
+  <%- if @comments && !@comments.empty?
     @comments.each do |comment|-%>
-  <%= render :partial => "comment", :locals => {:comment => comment}%>
+  <%= render :partial => "comments/comment", :locals => {:comment => comment}%>
   <%-end
   else -%>
-  <%= render :partial => "no_comments"%>
+  <%= render :partial => "comments/no_comments"%>
+  <%-end-%>
+  <%- if logged_in? -%>
+    <%= render :partial => "comments/new_comment"%>
   <%-end-%>
 </div>

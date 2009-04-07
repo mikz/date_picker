@@ -148,4 +148,70 @@ dt + dd { border-top: 1px solid #999; }
 #sidebar #user_box p a{
   float: left;
 }
+#comments .comment {
+  width: 56em;
+  background: #F2F2F2;
+  border: 1px solid #C1C1C1;
+  margin-bottom: 0.5em;
+}
+#comments .comment > .title > *{
+  float: left;
+}
+#comments .comment .content{
+  background: #F0F0F0;
+  border: 1px solid #D4D4D4;
+  margin: 0 0.25em 0.25em;
+  padding: 0.5em;
+  clear: both;
+}
 
+#comments .comment > .title {
+  padding: 0.5em;
+}
+#comments .comment > .title .user{
+  width: 10em;
+}
+#comments .comment > .title .title{
+  width: 20em;
+  font-weight: bold;
+}
+#comments .comment > .title .delete{ 
+  width: 6em;
+  text-align: right;
+}
+#comments .comment > .title .date, #comments .comment > .title .delete{
+  float: right;
+  margin-left: 1em;
+}
+#new_comment {
+  margin: 1em 0;
+}
+#new_comment h4 {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+#new_comment p {
+  margin-bottom: 0.5em;
+}
+#new_comment label.title{
+  margin-right: 1em;
+}
+#new_comment label.content{
+  float: left;
+  margin-left: 1em;
+  margin-right: 2.25em;
+}
+#new_comment textarea {
+  clear: both;
+  height: 5em;
+}
+#new_comment input[type="submit"] {
+  margin-left: 1em;
+}
+
+#notice {
+  border: 0.25em solid #F60;
+  border-top: none;
+  padding: 0.25em 2em 0.5em 2em;
+  background-color: #C7C7C7;
+}

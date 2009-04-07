@@ -16,3 +16,8 @@ cz:
   submit: odeslat
   save: uložit
   title: Voda 2009
+  delete: smazat
+  new_comment: nový komentář
+  comment_deleted: komentář byl vymazán
+  comment_saved: komentář byl uložen
+  dont_have_permission: nemáte oprávnění
