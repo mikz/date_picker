@@ -1,4 +1,4 @@
 <div class="comment">
-  <div class="title"><div class="user"><%=h comment.user.login%></div><div class="title"><%=h comment.title%></div><div class="delete"><% if current_user == comment.user%><%= link_to t(:delete), :controller => :comments, :action => :destroy, :id => comment.id%><%else%>&nbsp;<%end%></div><div class="date"><%=l comment.created_at, :format => :long%></div>&nbsp;</div>
+  <div class="title"><div class="user"><%=h comment.user.login%></div><div class="title"><%=h comment.title%></div><div class="delete"><% if current_user == comment.user || current_user.admin?%><%= link_to t(:delete), :controller => :comments, :action => :destroy, :id => comment.id%><%else%>&nbsp;<%end%></div><div class="date"><%=l comment.created_at, :format => :long%></div>&nbsp;</div>
   <div class="content"><%=h comment.content%></div>
 </div>

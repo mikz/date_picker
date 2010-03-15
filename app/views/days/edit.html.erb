@@ -1,3 +1,5 @@
+<p>Ahoj,<br/>
+  zaškrtni, kdy máš čas. Pokusíme se pak vybrat termín tak, aby nás mohlo jet, co nejvíce</p>
 <%- form_for :days, :url => {:action => :update}, :html => {:onsubmit => "get_selected_days(this);"} do |f|-%>
 <%- @begin.upto @end do |date|-%>
 <%-if (date.cwday == 1) || (@begin == date)-%><div class="week <%=date.cweek%>"><div class="headline"><h3><%=date.cweek%>. týden</h3><h4><%= l(date, :format => :long).mb_chars.downcase%> až <%= l(date+6 ,:format => :long).mb_chars.downcase%></h4></div><%-end-%>

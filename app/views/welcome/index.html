@@ -1,3 +1,4 @@
+<p>Tak zatím mají lidé čas asi takto:</p>
 <%- @begin.upto @end do |date|-%>
 <%-if (date.cwday == 1) || (@begin == date)-%><div class="week <%=date.cweek%>"><div class="headline"><h3><%=date.cweek%>. týden</h3><h4><%= l(date, :format => :long).mb_chars.downcase%> až <%= l(date+6 ,:format => :long).mb_chars.downcase%></h4></div><%-end-%>
   <div class="day <%=int_to_text(date.cwday)%> <%='ui-selected' if @dates.has_key? date%>" <%= %{style="opacity: #{(@dates[date].size.to_f/@max.to_f).round(2)};"} if @dates.has_key?(date) %> id="<%=date.to_s%>"><%= l date, :format => :with_day%><br/>(&nbsp;<%=(@dates[date]||[]).size%>&nbsp;)<div style="display: none;"><%=@dates[date].collect { |day| day.user.login }.to_json if @dates.has_key?(date)%></div></div>
