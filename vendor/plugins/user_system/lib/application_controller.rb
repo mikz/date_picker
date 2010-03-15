@@ -1,4 +1,5 @@
-class ApplicationController
+class ApplicationController < ActionController::Base
+
   def initialize #:nodoc:
     super
     ApplicationController.save_instance(self)

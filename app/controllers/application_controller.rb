@@ -7,4 +7,10 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+  
+  protected
+  def load_dates
+    @begin = Date.parse("2010-06-07")
+    @end   = Date.parse("2010-10-05")
+  end
 end

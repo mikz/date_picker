@@ -26,20 +26,10 @@ class DaysController < ApplicationController
     selected = params[:days]['selected'].map {|day|
       Date.parse(day) unless day.blank?
     }
-    STDERR << %{
-      #{dates.inspect}
-      #{selected.inspect}
-      #{(selected - dates).inspect}
-    }
     (selected - dates).each do |date|
       current_user.days.create :date => date unless date.nil?
     end
     redirect_to :action => :edit
   end
   
-  protected
-  def load_dates
-    @begin = Date.parse("2009-06-29")
-    @end   = Date.parse("2009-09-13")
-  end
 end

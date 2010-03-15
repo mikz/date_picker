@@ -20,7 +20,7 @@ module UserSystem
   end
   
   def self.included(base)
-    base.helper_method :current_user, :logged_in?
+    base.send :helper_method, :current_user, :logged_in?
   end
   
   def self.current_user
